@@ -1,5 +1,5 @@
 // ضع مفتاح API هنا بعد رفعه على GitHub:
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "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";
 
 document.getElementById("send").onclick = async () => {
   const code = document.getElementById("code").value;
