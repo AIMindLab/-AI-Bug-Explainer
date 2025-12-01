@@ -2,9 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="AI Bug Explainer helps developers understand and resolve coding issues with clear, practical explanations."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Bug Explainer - Fix Code Errors Fast</title>
+
+    <!-- SEO Title -->
+    <title>FixCodeAI – Understand & Fix Coding Errors Instantly</title>
+
+    <!-- SEO Meta Description -->
+    <meta
+      name="description"
+      content="FixCodeAI helps developers and students understand programming errors with simple explanations and real examples. Quickly debug Python, JavaScript, C++, Java, and more using AI-powered insights."
+    />
+
+    <!-- SEO Keywords -->
+    <meta
+      name="keywords"
+      content="AI bug explainer, fix code errors, debugging tool, programming help, Python error, JavaScript bug, AI code assistant, solve coding errors"
+    />
+
+    <!-- SEO Author -->
+    <meta name="author" content="FixCodeAI Team" />
+
+    <!-- Open Graph SEO (For Social Media) -->
+    <meta property="og:title" content="FixCodeAI – AI Bug Explainer" />
+    <meta
+      property="og:description"
+      content="A simple and powerful AI tool that helps you understand and fix programming errors instantly."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- TailwindCSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -18,43 +44,76 @@
                 500: '#3b82f6',
                 600: '#2563eb',
                 700: '#1d4ed8',
-                900: '#1e3a8a',
+                900: '#1e3a8a'
               }
             }
           }
         }
-      }
+      };
     </script>
+
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cairo:wght@400;600;700&display=swap');
-      
+
       body {
         font-family: 'Inter', sans-serif;
       }
-      
-      /* Apply Cairo font for Arabic */
-      
-      [dir="rtl"] body {
+
+      [dir='rtl'] body {
         font-family: 'Cairo', sans-serif;
       }
     </style>
 
-<link rel="stylesheet" href="./index.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-  <script type="module" crossorigin src="./assets/index-BbvkN0jy.js"></script>
-</head>
-  <body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 transition-colors duration-200">
+    <!-- Relative Path Fix -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Import Map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+          "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+          "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0"
+        }
+      }
+    </script>
+
+    <!-- Relative JS path -->
+    <script type="module" crossorigin src="./assets/index-BbvkN0jy.js"></script>
+
+    <!-- SEO Hidden Content (Google Reads It Even in SPAs) -->
+    <noscript>
+      <div>
+        <h1>FixCodeAI – Fast AI Bug Explainer</h1>
+        <p>
+          FixCodeAI helps you understand and correct programming errors using
+          clear explanations and practical examples. Whether you're learning or
+          building real projects, our AI gives you simple insights to debug
+          Python, JavaScript, C++, Java, and more.
+        </p>
+
+        <h2>Why Use FixCodeAI?</h2>
+        <ul>
+          <li>Beginner-friendly explanations without technical jargon.</li>
+          <li>Supports multiple programming languages.</li>
+          <li>Instant and accurate AI-powered debugging.</li>
+        </ul>
+
+        <h3>Example Use Case</h3>
+        <p>
+          If you get a Python “division by zero” error, FixCodeAI explains why
+          it happened and shows how to fix the issue with a safe code example.
+        </p>
+      </div>
+    </noscript>
+  </head>
+
+  <body
+    class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 transition-colors duration-200"
+  >
     <div id="root"></div>
-</body>
+  </body>
 </html>
